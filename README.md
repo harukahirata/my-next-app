@@ -1,3 +1,6 @@
+# 練習用Next.js
+これは、Gitなどの練習用に作成したNext.jsプロジェクトです。
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
