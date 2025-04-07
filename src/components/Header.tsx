@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { navLinks } from '@/lib/navLinks';
+import styles from '@/styles/components/Header.module.scss';
 
 type NavLink = {
   href: string;
@@ -8,7 +9,7 @@ type NavLink = {
 
 export default function Header() {
   return (
-    <header>
+    <header className={styles.header}>
       <nav>
         <ul>
           {navLinks.map((link: NavLink) => (
