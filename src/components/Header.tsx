@@ -12,7 +12,7 @@ export default function Header() {
     <header className={styles.header}>
       <h1><Link href="/">Test Site</Link></h1>
       <nav>
-        <ul>
+        <ul className={styles.navStyle}>
           {navLinks.map((link: NavLink) => (
             <li key={link.href}>
               <Link href={link.href}>{link.label}</Link>
